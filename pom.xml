@@ -27,7 +27,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>islarge.uranus.usmt.Applikeyshon</mainClass>
+                            <mainClass>nsdw.template.TemplateTypicalServerVerticleStarter</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
