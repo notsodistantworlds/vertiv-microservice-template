@@ -4,9 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-
     <groupId>worlds.notsodistant</groupId>
-    <!--  VERT.x Improved Variation  -->
     <artifactId>vertx-groovy-template</artifactId>
     <version>0.1-SNAPSHOT</version>
 
@@ -15,8 +13,8 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
 
@@ -94,28 +92,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-<!--            <plugin>-->
-<!--                <artifactId>maven-surefire-plugin</artifactId>-->
-<!--                <version>3.0.0-M4</version>-->
-
-<!--                <dependencies>-->
-<!--                    <dependency>-->
-<!--                        <groupId>org.apache.maven.surefire</groupId>-->
-<!--                        <artifactId>surefire-junit-platform</artifactId>-->
-<!--                        <version>3.0.0-M4</version>-->
-<!--                    </dependency>-->
-<!--                </dependencies>-->
-
-<!--                <configuration>-->
-<!--                    <useFile>false</useFile>-->
-<!--                    <includes>-->
-<!--                        <include>**/*Test.java</include>-->
-<!--                        <include>**/*Spec.java</include>-->
-<!--                        <include>**/*Specification.java</include>-->
-<!--                    </includes>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
         </plugins>
     </build>
 

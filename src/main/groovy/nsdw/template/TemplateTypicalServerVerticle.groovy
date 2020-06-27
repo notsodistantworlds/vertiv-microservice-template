@@ -9,6 +9,9 @@ class TemplateTypicalServerVerticle extends TypicalServerVerticle {
    // ...
 }
 
+/**
+ * A util class that acts as a binding for application startup, providing the good ol' main() method to the manifest
+ */
 class TemplateTypicalServerVerticleStarter {
     public static void main(String[] args) {
         def opts = new DeploymentOptions().setConfig(new JsonObject().put("http", new JsonObject().put("port", 53863)))
